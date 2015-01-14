@@ -1,0 +1,12 @@
+{application, snowhalation,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { snowhalation_app, []}},
+  {env, []}
+ ]}.
