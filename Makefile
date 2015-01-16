@@ -23,10 +23,10 @@ release:
 	cd rel; $(REBAR) generate
 
 run:
-	./rel/easymmo/bin/easymmo start
+	./rel/snowhalation/bin/snowhalation start
 
 stop-app:
-	./rel/easymmo/bin/easymmo stop
+	./rel/snowhalation/bin/snowhalation stop
 
 console:
-	./rel/easymmo/bin/easymmo attach
+	./rel/snowhalation/bin/snowhalation attach
