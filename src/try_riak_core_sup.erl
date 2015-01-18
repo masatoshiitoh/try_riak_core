@@ -1,4 +1,4 @@
--module(snowhalation_sup).
+-module(try_riak_core_sup).
 
 -behaviour(supervisor).
 

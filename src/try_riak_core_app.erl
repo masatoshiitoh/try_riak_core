@@ -1,4 +1,4 @@
--module(snowhalation_app).
+-module(try_riak_core_app).
 
 -behaviour(application).
 
@@ -10,7 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    snowhalation_sup:start_link().
+    try_riak_core_sup:start_link().
 
 stop(_State) ->
     ok.

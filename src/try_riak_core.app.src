@@ -1,4 +1,4 @@
-{application, snowhalation,
+{application, try_riak_core,
  [
   {description, ""},
   {vsn, "1"},
@@ -7,6 +7,6 @@
                   kernel,
                   stdlib
                  ]},
-  {mod, { snowhalation_app, []}},
+  {mod, { try_riak_core_app, []}},
   {env, []}
  ]}.
